@@ -1,0 +1,446 @@
+{
+    "10th Standard": {
+        "PUC Science": {
+            "Engineering": {
+                "B.E / B.Tech": {
+                    "Post Graduation": [
+                        "M.Tech",
+                        "M.E",
+                        "MBA",
+                        "MS Abroad",
+                        "PG Diploma"
+                    ],
+                    "Jobs": [
+                        "Software Engineer",
+                        "AI Engineer",
+                        "Data Scientist",
+                        "Cloud Engineer",
+                        "Cyber Security Analyst",
+                        "Mechanical Engineer",
+                        "Civil Engineer",
+                        "Electrical Engineer",
+                        "Robotics Engineer"
+                    ]
+                },
+                "Computer Science Engineering (CSE)": {
+                    "Post Graduation": [
+                        "M.Tech CSE",
+                        "M.E CSE",
+                        "MBA",
+                        "MS Computer Science"
+                    ],
+                    "Jobs": [
+                        "Software Developer",
+                        "Full Stack Developer",
+                        "AI Engineer",
+                        "Data Engineer"
+                    ]
+                },
+                "Artificial Intelligence & Machine Learning": {
+                    "Post Graduation": [
+                        "M.Tech AI",
+                        "M.Tech ML",
+                        "MS AI"
+                    ],
+                    "Jobs": [
+                        "AI Engineer",
+                        "ML Engineer",
+                        "Prompt Engineer",
+                        "Data Scientist"
+                    ]
+                },
+                "Civil Engineering": {
+                    "Post Graduation": [
+                        "M.Tech Civil",
+                        "ME Structural Engineering"
+                    ],
+                    "Jobs": [
+                        "Site Engineer",
+                        "Structural Engineer",
+                        "Project Engineer"
+                    ]
+                },
+                "Mechanical Engineering": {
+                    "Post Graduation": [
+                        "M.Tech Mechanical",
+                        "MBA"
+                    ],
+                    "Jobs": [
+                        "Mechanical Engineer",
+                        "Production Engineer",
+                        "Design Engineer"
+                    ]
+                },
+                "Electronics & Communication Engineering (ECE)": {
+                    "Post Graduation": [
+                        "M.Tech ECE",
+                        "VLSI Design"
+                    ],
+                    "Jobs": [
+                        "Embedded Engineer",
+                        "VLSI Engineer",
+                        "Network Engineer"
+                    ]
+                }
+            },
+
+            "Medical": {
+                "MBBS": {
+                    "Post Graduation": [
+                        "MD",
+                        "MS",
+                        "DM",
+                        "MCh"
+                    ],
+                    "Jobs": [
+                        "Doctor",
+                        "Surgeon",
+                        "Medical Officer",
+                        "Hospital Consultant"
+                    ]
+                },
+
+                "BDS": {
+                    "Post Graduation": [
+                        "MDS"
+                    ],
+                    "Jobs": [
+                        "Dentist",
+                        "Dental Surgeon"
+                    ]
+                },
+
+                "BAMS": {
+                    "Post Graduation": [
+                        "MD Ayurveda",
+                        "MS Ayurveda"
+                    ],
+                    "Jobs": [
+                        "Ayurvedic Doctor",
+                        "Research Officer"
+                    ]
+                },
+
+                "BUMS": {
+                    "Post Graduation": [
+                        "MD Unani"
+                    ],
+                    "Jobs": [
+                        "Unani Doctor",
+                        "Medical Consultant"
+                    ]
+                },
+
+                "BHMS": {
+                    "Post Graduation": [
+                        "MD Homeopathy"
+                    ],
+                    "Jobs": [
+                        "Homeopathy Doctor",
+                        "Medical Practitioner"
+                    ]
+                },
+
+                "BPT": {
+                    "Post Graduation": [
+                        "MPT"
+                    ],
+                    "Jobs": [
+                        "Physiotherapist",
+                        "Sports Therapist"
+                    ]
+                },
+
+                "B.Sc Nursing": {
+                    "Post Graduation": [
+                        "M.Sc Nursing"
+                    ],
+                    "Jobs": [
+                        "Nurse",
+                        "Hospital Staff Nurse"
+                    ]
+                },
+
+                "Pharm D": {
+                    "Post Graduation": [
+                        "PhD Pharmacy"
+                    ],
+                    "Jobs": [
+                        "Clinical Pharmacist",
+                        "Hospital Pharmacist"
+                    ]
+                },
+
+                "B.Pharmacy": {
+                    "Post Graduation": [
+                        "M.Pharmacy"
+                    ],
+                    "Jobs": [
+                        "Pharmacist",
+                        "Medical Representative"
+                    ]
+                }
+            },
+
+            "Science Degree": {
+                "BSc Computer Science": {
+                    "Post Graduation": [
+                        "MSc Computer Science",
+                        "MCA",
+                        "MBA"
+                    ],
+                    "Jobs": [
+                        "Software Developer",
+                        "System Administrator",
+                        "IT Support Engineer"
+                    ]
+                },
+
+                "BSc AI": {
+                    "Post Graduation": [
+                        "MSc AI",
+                        "MTech AI"
+                    ],
+                    "Jobs": [
+                        "AI Engineer",
+                        "ML Engineer"
+                    ]
+                },
+
+                "BSc Biotechnology": {
+                    "Post Graduation": [
+                        "MSc Biotechnology"
+                    ],
+                    "Jobs": [
+                        "Biotech Researcher",
+                        "Lab Scientist"
+                    ]
+                },
+
+                "BSc Agriculture": {
+                    "Post Graduation": [
+                        "MSc Agriculture"
+                    ],
+                    "Jobs": [
+                        "Agriculture Officer",
+                        "Farm Consultant"
+                    ]
+                }
+            }
+        },
+
+        "PUC Commerce": {
+            "Commerce Careers": {
+                "BCom": {
+                    "Post Graduation": [
+                        "MCom",
+                        "MBA",
+                        "CA",
+                        "CMA"
+                    ],
+                    "Jobs": [
+                        "Accountant",
+                        "Financial Analyst",
+                        "Tax Consultant",
+                        "Auditor"
+                    ]
+                },
+
+                "BBA": {
+                    "Post Graduation": [
+                        "MBA",
+                        "PGDM"
+                    ],
+                    "Jobs": [
+                        "HR Executive",
+                        "Marketing Executive",
+                        "Business Analyst"
+                    ]
+                },
+
+                "CA": {
+                    "Post Graduation": [
+                        "CPA",
+                        "MBA Finance"
+                    ],
+                    "Jobs": [
+                        "Chartered Accountant",
+                        "Financial Consultant"
+                    ]
+                },
+
+                "CS": {
+                    "Post Graduation": [
+                        "LLB",
+                        "MBA"
+                    ],
+                    "Jobs": [
+                        "Company Secretary",
+                        "Compliance Officer"
+                    ]
+                },
+
+                "CMA": {
+                    "Post Graduation": [
+                        "MBA Finance"
+                    ],
+                    "Jobs": [
+                        "Cost Accountant",
+                        "Finance Manager"
+                    ]
+                }
+            }
+        },
+
+        "PUC Arts": {
+            "Arts Careers": {
+                "BA": {
+                    "Post Graduation": [
+                        "MA",
+                        "MBA",
+                        "LLB",
+                        "MSW"
+                    ],
+                    "Jobs": [
+                        "Teacher",
+                        "Journalist",
+                        "Content Writer",
+                        "Social Worker"
+                    ]
+                },
+
+                "Journalism": {
+                    "Post Graduation": [
+                        "MA Journalism"
+                    ],
+                    "Jobs": [
+                        "News Reporter",
+                        "Editor",
+                        "Media Analyst"
+                    ]
+                },
+
+                "Psychology": {
+                    "Post Graduation": [
+                        "MA Psychology",
+                        "MSc Psychology"
+                    ],
+                    "Jobs": [
+                        "Psychologist",
+                        "Counselor"
+                    ]
+                },
+
+                "Law": {
+                    "Post Graduation": [
+                        "LLM"
+                    ],
+                    "Jobs": [
+                        "Advocate",
+                        "Legal Advisor"
+                    ]
+                },
+
+                "Fashion Designing": {
+                    "Post Graduation": [
+                        "Masters in Fashion Design"
+                    ],
+                    "Jobs": [
+                        "Fashion Designer",
+                        "Stylist"
+                    ]
+                }
+            }
+        },
+
+        "Diploma Engineering": {
+            "Diploma Courses": {
+                "Diploma in Computer Science": {
+                    "Post Graduation": [
+                        "B.E Lateral Entry",
+                        "B.Tech Lateral Entry"
+                    ],
+                    "Jobs": [
+                        "Junior Developer",
+                        "Hardware Technician"
+                    ]
+                },
+
+                "Diploma in Mechanical Engineering": {
+                    "Post Graduation": [
+                        "B.E Mechanical"
+                    ],
+                    "Jobs": [
+                        "Mechanical Technician",
+                        "Supervisor"
+                    ]
+                },
+
+                "Diploma in Civil Engineering": {
+                    "Post Graduation": [
+                        "B.E Civil"
+                    ],
+                    "Jobs": [
+                        "Site Supervisor",
+                        "CAD Designer"
+                    ]
+                },
+
+                "Diploma in ECE": {
+                    "Post Graduation": [
+                        "B.E ECE"
+                    ],
+                    "Jobs": [
+                        "Electronics Technician",
+                        "Network Support Engineer"
+                    ]
+                }
+            }
+        },
+
+        "ITI": {
+            "ITI Trades": {
+                "Electrician": {
+                    "Post Graduation": [
+                        "Diploma Electrical"
+                    ],
+                    "Jobs": [
+                        "Electrician",
+                        "Maintenance Technician"
+                    ]
+                },
+
+                "Fitter": {
+                    "Post Graduation": [
+                        "Diploma Mechanical"
+                    ],
+                    "Jobs": [
+                        "Machine Operator",
+                        "Fitter Technician"
+                    ]
+                },
+
+                "Welder": {
+                    "Post Graduation": [
+                        "Advanced Welding Certification"
+                    ],
+                    "Jobs": [
+                        "Welder",
+                        "Fabrication Technician"
+                    ]
+                },
+
+                "COPA": {
+                    "Post Graduation": [
+                        "Diploma Computer Applications"
+                    ],
+                    "Jobs": [
+                        "Computer Operator",
+                        "Office Assistant"
+                    ]
+                }
+            }
+        }
+    }
+}
+
