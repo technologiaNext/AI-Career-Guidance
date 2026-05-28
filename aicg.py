@@ -144,7 +144,7 @@ GLOBAL BUTTON STYLING
     # LIKE BUTTON
     # =====================================================
 
-    if st.button("👍 Like This App"):
+    if st.button("👍 Like it"):
 
         love_count += 1
 
