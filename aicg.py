@@ -154,7 +154,7 @@ GLOBAL BUTTON STYLING
 
         st.rerun()
 
-    st.caption(f"👍 {love_count} Likes")
+    st.caption(f"👍 {love_count} Likes Couting")
 
 
 # =========================================================
