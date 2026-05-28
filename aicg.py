@@ -31,7 +31,131 @@ with open(json_file, "r") as f:
 # TITLE
 # =========================================================
 
-st.title("🎓 AI Career Guidance Agent")
+
+# =========================================================
+# TITLE + LIKE COUNTER
+# =========================================================
+
+likes_file = "likes.json"
+
+# Create file if not exists
+if not os.path.exists(likes_file):
+
+    with open(likes_file, "w") as f:
+        json.dump({"count": 0}, f)
+
+# Load likes safely
+try:
+
+    with open(likes_file, "r") as f:
+
+        content = f.read().strip()
+
+        if not content:
+
+            likes_data = {"count": 0}
+
+        else:
+
+            likes_data = json.loads(content)
+
+except json.JSONDecodeError:
+
+    likes_data = {"count": 0}
+
+    with open(likes_file, "w") as f:
+
+        json.dump(likes_data, f)
+
+love_count = likes_data["count"]
+
+# =========================================================
+# HEADER LAYOUT
+# =========================================================
+
+title_col, like_col = st.columns([6, 2])
+
+with title_col:
+
+    st.markdown(
+        "<h1 style='margin-top:15px;'>🎓 AI Career Guidance Agent</h1>",
+        unsafe_allow_html=True
+    )
+
+with like_col:
+    st.markdown("""
+<style>
+
+/* =====================================================
+GLOBAL BUTTON STYLING
+===================================================== */
+
+.stButton > button {
+
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 0.6rem 1rem;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: all 0.2s ease-in-out;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Hover Effect */
+
+.stButton > button:hover {
+
+    background-color: #1d4ed8;
+    color: white;
+
+    transform: translateY(-1px);
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Click Effect */
+
+.stButton > button:active {
+
+    transform: scale(0.98);
+}
+
+/* Remove ugly default border */
+
+.stButton > button:focus {
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+    
+
+    # =====================================================
+    # LIKE BUTTON
+    # =====================================================
+
+    if st.button("👍 Like This App"):
+
+        love_count += 1
+
+        with open(likes_file, "w") as f:
+
+            json.dump({"count": love_count}, f)
+
+        st.rerun()
+
+    st.caption(f"👍 {love_count} Likes")
+
 
 # =========================================================
 # CHECK DATA EXISTS
